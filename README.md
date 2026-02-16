@@ -349,6 +349,12 @@ Optional:
 
 - `PORT` (default `3000`)
 
+Bootstrap from example:
+
+```bash
+cp .env.example .env
+```
+
 ### Install
 
 ```bash
@@ -377,6 +383,12 @@ npm run db:seed
 
 ```bash
 npm run dev
+```
+
+### Run app (production mode)
+
+```bash
+npm run build && npm start
 ```
 
 ### Build
